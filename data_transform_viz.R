@@ -1,3 +1,4 @@
+# This script is version control form of git
 # This script is a collection of functions for data transformation
 log_transformed_scatter_plot <- function(df, X, Y, method = c("base10", "base2", "natural")){
     if (method =="base10" ){
